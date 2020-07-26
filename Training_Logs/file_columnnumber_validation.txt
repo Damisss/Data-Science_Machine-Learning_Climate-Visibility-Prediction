@@ -1,0 +1,17 @@
+2020-07-01 | 00:55:36 | Something went wrong while verifying the column number: Invalid file path or buffer object type: <class 'list'>
+2020-07-01 | 00:56:42 | Something went wrong while verifying the column number: [Errno 2] File visibility_08012008_120010.csv does not exist: 'visibility_08012008_120010.csv'
+2020-07-01 | 00:58:45 | Column number verified
+2020-07-01 | 00:58:45 | Column number verified
+2020-07-01 | 00:58:45 | Column number verified
+2020-07-01 | 00:58:45 | Column number verified
+2020-07-01 | 00:58:45 | Column number verified
+2020-07-01 | 01:03:59 | Column number verified
+2020-07-01 | 01:03:59 | Column number verified
+2020-07-01 | 01:03:59 | Column number verified
+2020-07-01 | 01:03:59 | Column number verified
+2020-07-01 | 01:03:59 | Column number verified
+2020-07-01 | 01:04:41 | Column number verified
+2020-07-01 | 01:04:41 | Column number verified
+2020-07-01 | 01:04:41 | Column number verified
+2020-07-01 | 01:04:41 | Column number verified
+2020-07-01 | 01:04:41 | Column number verified

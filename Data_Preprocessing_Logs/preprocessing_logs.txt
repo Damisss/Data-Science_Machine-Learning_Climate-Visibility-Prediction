@@ -1,0 +1,247 @@
+2020-07-04 | 13:11:35 | Somthing went wrong while preprocessing the data:removeColumn() missing 1 required positional argument: 'listOfColumns'
+2020-07-04 | 13:12:08 | Somthing went wrong while removing columns :"[' dewpointtempf'] not found in axis"
+2020-07-04 | 13:12:08 | Somthing went wrong while preprocessing the data:"[' dewpointtempf'] not found in axis"
+2020-07-04 | 13:12:27 | Columns removed successfully
+2020-07-04 | 13:12:27 | Somthing went wrong while preprocessing the data:'DataPreprocessing' object has no attribute 'separateFeatureAndTarget'
+2020-07-04 | 13:13:01 | Columns removed successfully
+2020-07-04 | 13:13:01 | Somthing went wrong while separating features from target :"['visiblity'] not found in axis"
+2020-07-04 | 13:13:01 | Somthing went wrong while preprocessing the data:"['visiblity'] not found in axis"
+2020-07-04 | 13:13:57 | Columns removed successfully
+2020-07-04 | 13:13:57 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 13:13:57 | Features were scalled successfully
+2020-07-04 | 13:13:57 | Done. The data is ready to be passed to a model.
+2020-07-04 | 13:14:52 | Columns removed successfully
+2020-07-04 | 13:14:52 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 13:14:52 | Features were scalled successfully
+2020-07-04 | 13:14:52 | Done. The data is ready to be passed to a model.
+2020-07-04 | 17:33:18 | Columns removed successfully
+2020-07-04 | 17:33:18 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 17:33:18 | Done. The data is ready to be passed to a model.
+2020-07-04 | 17:35:06 | Columns removed successfully
+2020-07-04 | 17:35:06 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 17:35:06 | Done. The data is ready to be passed to a model.
+2020-07-04 | 17:35:13 | The optimum number of clusters is: 3
+2020-07-04 | 17:37:21 | Columns removed successfully
+2020-07-04 | 17:37:21 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 17:37:21 | Done. The data is ready to be passed to a model.
+2020-07-04 | 17:37:27 | The optimum number of clusters is: 3
+2020-07-04 | 17:37:27 | Something went  wrong while  clustering data : saveModel() missing 1 required positional argument: 'fileName'
+2020-07-04 | 17:38:18 | Columns removed successfully
+2020-07-04 | 17:38:18 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 17:38:18 | Done. The data is ready to be passed to a model.
+2020-07-04 | 17:38:23 | The optimum number of clusters is: 3
+2020-07-04 | 17:38:24 | The data has been clustered successfuly.
+2020-07-04 | 23:25:58 | Columns removed successfully
+2020-07-04 | 23:25:58 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 23:25:58 | Done. The data is ready to be passed to a model.
+2020-07-04 | 23:26:04 | The optimum number of clusters is: 3
+2020-07-04 | 23:26:05 | The data has been clustered successfuly.
+2020-07-04 | 23:32:49 | Columns removed successfully
+2020-07-04 | 23:32:49 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 23:32:49 | Done. The data is ready to be passed to a model.
+2020-07-04 | 23:32:55 | The optimum number of clusters is: 3
+2020-07-04 | 23:32:56 | The data has been clustered successfuly.
+2020-07-04 | 23:33:16 | Columns removed successfully
+2020-07-04 | 23:33:16 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 23:33:16 | Done. The data is ready to be passed to a model.
+2020-07-04 | 23:33:21 | The optimum number of clusters is: 3
+2020-07-04 | 23:33:22 | The data has been clustered successfuly.
+2020-07-04 | 23:46:20 | Columns removed successfully
+2020-07-04 | 23:46:20 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 23:46:20 | Done. The data is ready to be passed to a model.
+2020-07-04 | 23:46:26 | The optimum number of clusters is: 3
+2020-07-04 | 23:46:26 | The data has been clustered successfuly.
+2020-07-04 | 23:46:26 | Features were scalled successfully
+2020-07-04 | 23:47:19 | Columns removed successfully
+2020-07-04 | 23:47:19 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 23:47:19 | Done. The data is ready to be passed to a model.
+2020-07-04 | 23:47:25 | The optimum number of clusters is: 3
+2020-07-04 | 23:47:25 | The data has been clustered successfuly.
+2020-07-04 | 23:47:25 | Features were scalled successfully
+2020-07-04 | 23:48:13 | Columns removed successfully
+2020-07-04 | 23:48:13 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 23:48:13 | Done. The data is ready to be passed to a model.
+2020-07-04 | 23:48:19 | The optimum number of clusters is: 3
+2020-07-04 | 23:48:19 | The data has been clustered successfuly.
+2020-07-04 | 23:48:19 | Features were scalled successfully
+2020-07-04 | 23:48:25 | Features were scalled successfully
+2020-07-04 | 23:48:30 | Features were scalled successfully
+2020-07-04 | 23:49:59 | Columns removed successfully
+2020-07-04 | 23:49:59 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 23:49:59 | Done. The data is ready to be passed to a model.
+2020-07-04 | 23:50:05 | The optimum number of clusters is: 3
+2020-07-04 | 23:50:05 | The data has been clustered successfuly.
+2020-07-04 | 23:50:05 | Features were scalled successfully
+2020-07-04 | 23:50:11 | Features were scalled successfully
+2020-07-04 | 23:50:16 | Features were scalled successfully
+2020-07-04 | 23:51:28 | Columns removed successfully
+2020-07-04 | 23:51:28 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 23:51:28 | Done. The data is ready to be passed to a model.
+2020-07-04 | 23:51:34 | The optimum number of clusters is: 3
+2020-07-04 | 23:51:34 | The data has been clustered successfuly.
+2020-07-04 | 23:51:34 | Features were scalled successfully
+2020-07-04 | 23:51:55 | Features were scalled successfully
+2020-07-04 | 23:52:14 | Features were scalled successfully
+2020-07-04 | 23:55:05 | Columns removed successfully
+2020-07-04 | 23:55:05 | Independante variables and Dependant variable were separated Successfully
+2020-07-04 | 23:55:05 | Done. The data is ready to be passed to a model.
+2020-07-04 | 23:55:11 | The optimum number of clusters is: 3
+2020-07-04 | 23:55:12 | The data has been clustered successfuly.
+2020-07-04 | 23:55:12 | Features were scalled successfully
+2020-07-04 | 23:55:59 | Features were scalled successfully
+2020-07-04 | 23:56:42 | Features were scalled successfully
+2020-07-05 | 01:10:04 | Columns removed successfully
+2020-07-05 | 01:10:04 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 01:10:04 | Done. The data is ready to be passed to a model.
+2020-07-05 | 01:10:11 | The optimum number of clusters is: 3
+2020-07-05 | 01:10:11 | The data has been clustered successfuly.
+2020-07-05 | 01:13:24 | Columns removed successfully
+2020-07-05 | 01:13:24 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 01:13:24 | Done. The data is ready to be passed to a model.
+2020-07-05 | 01:13:30 | The optimum number of clusters is: 3
+2020-07-05 | 01:13:30 | The data has been clustered successfuly.
+2020-07-05 | 01:19:59 | Columns removed successfully
+2020-07-05 | 01:19:59 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 01:19:59 | Done. The data is ready to be passed to a model.
+2020-07-05 | 01:20:05 | The optimum number of clusters is: 3
+2020-07-05 | 01:20:05 | The data has been clustered successfuly.
+2020-07-05 | 01:21:48 | Columns removed successfully
+2020-07-05 | 01:21:48 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 01:21:48 | Done. The data is ready to be passed to a model.
+2020-07-05 | 01:21:53 | The optimum number of clusters is: 3
+2020-07-05 | 01:21:54 | The data has been clustered successfuly.
+2020-07-05 | 13:32:39 | Columns removed successfully
+2020-07-05 | 13:32:39 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 13:32:39 | Done. The data is ready to be passed to a model.
+2020-07-05 | 13:32:45 | The optimum number of clusters is: 3
+2020-07-05 | 13:32:45 | The data has been clustered successfuly.
+2020-07-05 | 13:37:14 | Columns removed successfully
+2020-07-05 | 13:37:14 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 13:37:14 | Done. The data is ready to be passed to a model.
+2020-07-05 | 13:37:20 | The optimum number of clusters is: 3
+2020-07-05 | 13:37:20 | The data has been clustered successfuly.
+2020-07-05 | 13:42:13 | Columns removed successfully
+2020-07-05 | 13:42:13 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 13:42:13 | Done. The data is ready to be passed to a model.
+2020-07-05 | 13:42:19 | The optimum number of clusters is: 3
+2020-07-05 | 13:42:19 | The data has been clustered successfuly.
+2020-07-05 | 13:52:08 | Columns removed successfully
+2020-07-05 | 13:52:08 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 13:52:08 | Done. The data is ready to be passed to a model.
+2020-07-05 | 13:52:14 | The optimum number of clusters is: 3
+2020-07-05 | 13:52:14 | The data has been clustered successfuly.
+2020-07-05 | 13:59:39 | Columns removed successfully
+2020-07-05 | 13:59:39 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 13:59:39 | Done. The data is ready to be passed to a model.
+2020-07-05 | 13:59:45 | The optimum number of clusters is: 3
+2020-07-05 | 13:59:46 | The data has been clustered successfuly.
+2020-07-05 | 14:02:33 | Columns removed successfully
+2020-07-05 | 14:02:33 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 14:02:33 | Done. The data is ready to be passed to a model.
+2020-07-05 | 14:02:38 | The optimum number of clusters is: 3
+2020-07-05 | 14:02:39 | The data has been clustered successfuly.
+2020-07-05 | 18:49:45 | Columns removed successfully
+2020-07-05 | 18:49:45 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 18:49:45 | Done. The data is ready to be passed to a model.
+2020-07-05 | 18:49:50 | The optimum number of clusters is: 3
+2020-07-05 | 18:49:51 | The data has been clustered successfuly.
+2020-07-05 | 18:54:32 | Columns removed successfully
+2020-07-05 | 18:54:32 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 18:54:32 | Done. The data is ready to be passed to a model.
+2020-07-05 | 18:54:38 | The optimum number of clusters is: 3
+2020-07-05 | 18:54:38 | The data has been clustered successfuly.
+2020-07-05 | 18:59:45 | Columns removed successfully
+2020-07-05 | 18:59:45 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 18:59:45 | Done. The data is ready to be passed to a model.
+2020-07-05 | 18:59:51 | The optimum number of clusters is: 3
+2020-07-05 | 18:59:51 | The data has been clustered successfuly.
+2020-07-05 | 19:07:22 | Columns removed successfully
+2020-07-05 | 19:07:22 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 19:07:22 | Done. The data is ready to be passed to a model.
+2020-07-05 | 19:07:28 | The optimum number of clusters is: 3
+2020-07-05 | 19:07:28 | The data has been clustered successfuly.
+2020-07-05 | 20:07:42 | Columns removed successfully
+2020-07-05 | 20:07:42 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 20:07:42 | Done. The data is ready to be passed to a model.
+2020-07-05 | 20:07:49 | The optimum number of clusters is: 3
+2020-07-05 | 20:07:49 | The data has been clustered successfuly.
+2020-07-05 | 20:18:28 | Columns removed successfully
+2020-07-05 | 20:18:28 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 20:18:28 | Done. The data is ready to be passed to a model.
+2020-07-05 | 20:18:34 | The optimum number of clusters is: 3
+2020-07-05 | 20:18:34 | The data has been clustered successfuly.
+2020-07-05 | 20:56:12 | Columns removed successfully
+2020-07-05 | 20:56:12 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 20:56:12 | Done. The data is ready to be passed to a model.
+2020-07-05 | 20:56:18 | The optimum number of clusters is: 3
+2020-07-05 | 20:56:18 | Something went  wrong while  clustering data : saveModel() missing 1 required positional argument: 'fileName'
+2020-07-05 | 20:58:48 | Columns removed successfully
+2020-07-05 | 20:58:48 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 20:58:48 | Done. The data is ready to be passed to a model.
+2020-07-05 | 20:58:54 | The optimum number of clusters is: 3
+2020-07-05 | 20:58:54 | Something went  wrong while  clustering data : saveModel() missing 1 required positional argument: 'fileName'
+2020-07-05 | 21:02:44 | Columns removed successfully
+2020-07-05 | 21:02:44 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 21:02:44 | Done. The data is ready to be passed to a model.
+2020-07-05 | 21:02:50 | The optimum number of clusters is: 3
+2020-07-05 | 21:02:50 | Something went  wrong while  clustering data : 'Operation' object has no attribute 'modelDirPath'
+2020-07-05 | 21:04:56 | Columns removed successfully
+2020-07-05 | 21:04:56 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 21:04:56 | Done. The data is ready to be passed to a model.
+2020-07-05 | 21:05:02 | The optimum number of clusters is: 3
+2020-07-05 | 21:05:02 | The data has been clustered successfuly.
+2020-07-05 | 21:25:02 | Columns removed successfully
+2020-07-05 | 21:25:02 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 21:25:02 | Done. The data is ready to be passed to a model.
+2020-07-05 | 21:25:08 | The optimum number of clusters is: 3
+2020-07-05 | 21:25:08 | The data has been clustered successfuly.
+2020-07-05 | 21:28:04 | Columns removed successfully
+2020-07-05 | 21:28:04 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 21:28:04 | Done. The data is ready to be passed to a model.
+2020-07-05 | 21:28:10 | The optimum number of clusters is: 3
+2020-07-05 | 21:28:10 | The data has been clustered successfuly.
+2020-07-05 | 21:36:56 | Columns removed successfully
+2020-07-05 | 21:36:56 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 21:36:56 | Done. The data is ready to be passed to a model.
+2020-07-05 | 21:37:02 | The optimum number of clusters is: 3
+2020-07-05 | 21:37:02 | The data has been clustered successfuly.
+2020-07-05 | 21:40:48 | Columns removed successfully
+2020-07-05 | 21:40:48 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 21:40:48 | Done. The data is ready to be passed to a model.
+2020-07-05 | 21:40:54 | The optimum number of clusters is: 3
+2020-07-05 | 21:40:54 | The data has been clustered successfuly.
+2020-07-05 | 21:56:32 | Columns removed successfully
+2020-07-05 | 21:56:32 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 21:56:32 | Done. The data is ready to be passed to a model.
+2020-07-05 | 21:56:38 | The optimum number of clusters is: 3
+2020-07-05 | 21:56:38 | The data has been clustered successfuly.
+2020-07-05 | 22:43:44 | Columns removed successfully
+2020-07-05 | 22:43:44 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 22:43:44 | Done. The data is ready to be passed to a model.
+2020-07-05 | 22:43:51 | The optimum number of clusters is: 3
+2020-07-05 | 22:43:51 | The data has been clustered successfuly.
+2020-07-05 | 22:56:41 | Columns removed successfully
+2020-07-05 | 22:56:41 | Independante variables and Dependant variable were separated Successfully
+2020-07-05 | 22:56:41 | Done. The data is ready to be passed to a model.
+2020-07-05 | 22:56:47 | The optimum number of clusters is: 3
+2020-07-05 | 22:56:47 | The data has been clustered successfuly.
+2020-07-06 | 21:53:11 | Columns removed successfully
+2020-07-06 | 21:53:11 | Independante variables and Dependant variable were separated Successfully
+2020-07-06 | 21:53:11 | Done. The data is ready to be passed to a model.
+2020-07-06 | 21:53:17 | The optimum number of clusters is: 3
+2020-07-06 | 21:53:17 | The data has been clustered successfuly.
+2020-07-06 | 21:57:11 | Columns removed successfully
+2020-07-06 | 21:57:11 | Independante variables and Dependant variable were separated Successfully
+2020-07-06 | 21:57:11 | Done. The data is ready to be passed to a model.
+2020-07-06 | 21:57:17 | The optimum number of clusters is: 3
+2020-07-06 | 21:57:17 | The data has been clustered successfuly.
+2020-07-06 | 22:01:56 | Columns removed successfully
+2020-07-06 | 22:01:56 | Independante variables and Dependant variable were separated Successfully
+2020-07-06 | 22:01:56 | Done. The data is ready to be passed to a model.
+2020-07-06 | 22:02:02 | The optimum number of clusters is: 3
+2020-07-06 | 22:02:02 | The data has been clustered successfuly.
+2020-07-07 | 08:37:43 | Columns removed successfully
+2020-07-07 | 08:37:43 | Independante variables and Dependant variable were separated Successfully
+2020-07-07 | 08:37:43 | Done. The data is ready to be passed to a model.
+2020-07-07 | 08:37:49 | The optimum number of clusters is: 3
+2020-07-07 | 08:37:50 | The data has been clustered successfuly.

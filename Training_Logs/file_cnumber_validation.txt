@@ -1,0 +1,1 @@
+2020-07-01 | 00:52:28 | Something went wrong while verifying the column number: Invalid file path or buffer object type: <class 'list'>

@@ -1,0 +1,52 @@
+2020-07-04 | 23:47:25 | Something went wrong while taining: Cannot clone object. You should provide an instance of scikit-learn estimator instead of a class.
+2020-07-04 | 23:48:25 | Experimentation has benn completed successfully.
+2020-07-04 | 23:48:30 | Experimentation has benn completed successfully.
+2020-07-04 | 23:48:36 | Experimentation has benn completed successfully.
+2020-07-04 | 23:50:11 | Experimentation has benn completed successfully.
+2020-07-04 | 23:50:16 | Experimentation has benn completed successfully.
+2020-07-04 | 23:50:22 | Experimentation has benn completed successfully.
+2020-07-04 | 23:51:55 | Experimentation has benn completed successfully.
+2020-07-04 | 23:52:14 | Experimentation has benn completed successfully.
+2020-07-04 | 23:52:37 | Experimentation has benn completed successfully.
+2020-07-04 | 23:55:59 | Experimentation has benn completed successfully.
+2020-07-04 | 23:56:41 | Experimentation has benn completed successfully.
+2020-07-04 | 23:57:30 | Experimentation has benn completed successfully.
+2020-07-05 | 01:10:11 | Experimentation has benn completed successfully.
+2020-07-05 | 01:10:11 | Something went wrong while taining: list index out of range
+2020-07-05 | 01:14:21 | Experimentation has benn completed successfully.
+2020-07-05 | 01:15:11 | Experimentation has benn completed successfully.
+2020-07-05 | 01:16:04 | Experimentation has benn completed successfully.
+2020-07-05 | 01:20:22 | Experimentation has benn completed successfully.
+2020-07-05 | 01:20:35 | Experimentation has benn completed successfully.
+2020-07-05 | 01:20:47 | Experimentation has benn completed successfully.
+2020-07-05 | 01:22:05 | Experimentation has benn completed successfully.
+2020-07-05 | 01:22:11 | Experimentation has benn completed successfully.
+2020-07-05 | 01:22:18 | Experimentation has benn completed successfully.
+2020-07-05 | 13:33:52 | Experimentation has benn completed successfully.
+2020-07-05 | 13:38:26 | Experimentation has benn completed successfully.
+2020-07-05 | 13:39:29 | Experimentation has benn completed successfully.
+2020-07-05 | 13:40:37 | Experimentation has benn completed successfully.
+2020-07-05 | 13:43:24 | Experimentation has benn completed successfully.
+2020-07-05 | 13:53:26 | Experimentation has benn completed successfully.
+2020-07-05 | 14:00:52 | Experimentation has benn completed successfully.
+2020-07-05 | 14:03:45 | Experimentation has benn completed successfully.
+2020-07-05 | 14:47:26 | Experimentation has benn completed successfully.
+2020-07-05 | 14:48:30 | Experimentation has benn completed successfully.
+2020-07-05 | 18:51:01 | Experimentation has benn completed successfully.
+2020-07-05 | 18:52:06 | Experimentation has benn completed successfully.
+2020-07-05 | 18:53:13 | Experimentation has benn completed successfully.
+2020-07-05 | 18:55:49 | Experimentation has benn completed successfully.
+2020-07-05 | 18:57:02 | Experimentation has benn completed successfully.
+2020-07-05 | 18:58:16 | Experimentation has benn completed successfully.
+2020-07-05 | 19:01:04 | Experimentation has benn completed successfully.
+2020-07-05 | 19:02:14 | Experimentation has benn completed successfully.
+2020-07-05 | 19:03:29 | Experimentation has benn completed successfully.
+2020-07-05 | 19:08:38 | Experimentation has benn completed successfully. Model selected is ExtraTrees
+2020-07-05 | 19:09:50 | Experimentation has benn completed successfully. Model selected is ExtraTrees
+2020-07-05 | 19:11:04 | Experimentation has benn completed successfully. Model selected is ExtraTrees
+2020-07-05 | 20:08:57 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-07-05 | 20:09:58 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-07-05 | 20:11:02 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-07-05 | 20:19:38 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-07-05 | 20:20:39 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-07-05 | 20:21:47 | Experimentation has been completed successfully. Model selected is ExtraTrees
