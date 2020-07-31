@@ -117,7 +117,7 @@ class DB ():
             headers = [(i[0]).lower() for i in c.description]
             
             if not os.path.isdir(self.fileFromDb):
-                os.makedirs(self.fileFromDb) 
+                os.makedirs(self.fileFromDb)
             
         # Open CSV file for writing.
             csvFile = csv.writer(open(f'{self.fileFromDb}/{fileName}{self.extension}', 'w', newline=''),delimiter=',', lineterminator='\r\n',quoting=csv.QUOTE_ALL, escapechar='\\')
