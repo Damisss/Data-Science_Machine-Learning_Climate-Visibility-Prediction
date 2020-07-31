@@ -1,0 +1,9 @@
+2020-07-30 | 23:51:57 | Something went wrong while transforming data: 'DATE' is not in list
+2020-07-30 | 23:57:48 | Data has been transformed successfuly
+2020-07-30 | 23:57:49 | Data has been transformed successfuly
+2020-07-30 | 23:57:49 | Data has been transformed successfuly
+2020-07-31 | 00:21:04 | Data has been transformed successfuly
+2020-07-31 | 00:21:04 | Data has been transformed successfuly
+2020-07-31 | 00:21:04 | Data has been transformed successfuly
+2020-07-31 | 00:21:04 | Data has been transformed successfuly
+2020-07-31 | 00:21:04 | Data has been transformed successfuly

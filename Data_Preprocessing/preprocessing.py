@@ -7,6 +7,7 @@ class DataPreprocessing ():
     def __init__ (self):
         self.logWriter = logWriter
         
+    # remove columns as discused in EDA section.
     def removeColumn (self, dataPath, listOfColumns):
         try:
             df = pd.read_csv(dataPath)
@@ -49,17 +50,21 @@ class DataPreprocessing ():
                 self.logWriter(file, f'Somthing went wrong while performing data scalling :{e}')
             raise e
     
-    def preprocess (self, dataPath, listOfColumns, targetName):
+    def preprocess (self, dataPath, listOfColumns, targetName=None):
         
         try:
-           df = self.removeColumn(dataPath, listOfColumns)
-           X, y = self.separateFeaturesFromTarget(df, targetName)
-           
-           with open('Data_Preprocessing_Logs/preprocessing_logs.txt', 'a+') as file:
+            df = self.removeColumn(dataPath, listOfColumns)
+            if targetName:
+                X, y = self.separateFeaturesFromTarget(df, targetName)
+                
+                with open('Data_Preprocessing_Logs/preprocessing_logs.txt', 'a+') as file:
+                        self.logWriter(file, 'Done. The data is ready to be passed to a model.')
+                return X, y
+            
+            with open('Data_Preprocessing_Logs/preprocessing_logs.txt', 'a+') as file:
                 self.logWriter(file, 'Done. The data is ready to be passed to a model.')
-        
-           return X, y
-       
+            return df
+
         except Exception as e:
             with open('Data_Preprocessing_Logs/preprocessing_logs.txt', 'a+') as file:
                 self.logWriter(file, f'Somthing went wrong while preprocessing the data:{e}')

@@ -44,3 +44,7 @@
 2020-07-06 | 22:02:02 | Data is ready to be passed to a ML model.
 2020-07-07 | 08:37:50 | Data is ready to be passed to a ML model.
 2020-07-07 | 10:28:17 | Model training has been completed successfully.
+2020-07-31 | 18:00:20 | Something went wrong while getting data ready for a ML model: [Errno 2] File DataFrom_Db/training_set.csv does not exist: 'DataFrom_Db/training_set.csv'
+2020-07-31 | 18:00:20 | Something went wrong while training the model: [Errno 2] File DataFrom_Db/training_set.csv does not exist: 'DataFrom_Db/training_set.csv'
+2020-07-31 | 18:12:24 | Data is ready to be passed to a ML model.
+2020-07-31 | 22:50:00 | Data is ready to be passed to a ML model.

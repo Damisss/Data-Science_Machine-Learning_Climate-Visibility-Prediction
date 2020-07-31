@@ -245,3 +245,15 @@
 2020-07-07 | 08:37:43 | Done. The data is ready to be passed to a model.
 2020-07-07 | 08:37:49 | The optimum number of clusters is: 3
 2020-07-07 | 08:37:50 | The data has been clustered successfuly.
+2020-07-31 | 18:00:20 | Somthing went wrong while removing columns :[Errno 2] File DataFrom_Db/training_set.csv does not exist: 'DataFrom_Db/training_set.csv'
+2020-07-31 | 18:00:20 | Somthing went wrong while preprocessing the data:[Errno 2] File DataFrom_Db/training_set.csv does not exist: 'DataFrom_Db/training_set.csv'
+2020-07-31 | 18:12:08 | Columns removed successfully
+2020-07-31 | 18:12:08 | Independante variables and Dependant variable were separated Successfully
+2020-07-31 | 18:12:08 | Done. The data is ready to be passed to a model.
+2020-07-31 | 18:12:23 | The optimum number of clusters is: 3
+2020-07-31 | 18:12:24 | The data has been clustered successfuly.
+2020-07-31 | 22:49:51 | Columns removed successfully
+2020-07-31 | 22:49:51 | Independante variables and Dependant variable were separated Successfully
+2020-07-31 | 22:49:51 | Done. The data is ready to be passed to a model.
+2020-07-31 | 22:49:59 | The optimum number of clusters is: 3
+2020-07-31 | 22:50:00 | The data has been clustered successfuly.

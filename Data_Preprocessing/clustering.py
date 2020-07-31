@@ -40,11 +40,11 @@ class DataClustering ():
     def performClustering (self, data, clusterNumber):
         try:
             k_means = KMeans(n_clusters=clusterNumber)
-            y_k_means = k_means.fit_predict(data)
+            labels = k_means.fit_predict(data)
             
-            self.fileOperation.saveModel(y_k_means, 'Cluster', 'model')
+            self.fileOperation.saveModel(k_means, 'KMeans', 'model')
             
-            data['cluster'] = y_k_means
+            data['cluster'] = labels
             with open('Data_Preprocessing_Logs/preprocessing_logs.txt', 'a+') as file:
                 self.logWriter(file, f'The data has been clustered successfuly.')
                 

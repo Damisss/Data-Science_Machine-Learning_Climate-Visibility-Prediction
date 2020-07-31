@@ -19,8 +19,9 @@ class TrainingModels ():
     #get data ready for ML model
     def prepareData (self):
         try:
-            c =['wetbulbtempf','dewpointtempf','stationpressure']
-            X, y = self.dataprocessing.preprocess('Training_Set_From_Db/training_set.csv', c, 'visibility')
+            # c is the list of column to be moved due multi collinarity. Please have a look in EDA section.
+            columnsToBeDeleted =['wetbulbtempf','dewpointtempf','stationpressure']
+            X, y = self.dataprocessing.preprocess('Data_From_Db/training_set.csv', columnsToBeDeleted, 'visibility')
             
             numberOfCluster = self.dataClustering.getOptimumNumberOfCluster(X)
             dataClustered = self.dataClustering.performClustering(X, numberOfCluster)

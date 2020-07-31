@@ -30,3 +30,95 @@
 2020-07-01 | 01:04:41 | Folder bad raw data has been deleted successfully.
 2020-07-01 | 01:04:41 | Folder good raw data has been created.
 2020-07-01 | 01:04:41 | Folder bad raw data has been created.
+2020-07-30 | 22:20:13 | Folder good raw data has been created.
+2020-07-30 | 22:20:13 | Folder bad raw data has been created.
+2020-07-30 | 22:23:40 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:23:40 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:23:40 | Folder good raw data has been created.
+2020-07-30 | 22:23:40 | Folder bad raw data has been created.
+2020-07-30 | 22:24:45 | Folder good raw data has been created.
+2020-07-30 | 22:24:45 | Folder bad raw data has been created.
+2020-07-30 | 22:25:22 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:25:22 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:25:22 | Folder good raw data has been created.
+2020-07-30 | 22:25:22 | Folder bad raw data has been created.
+2020-07-30 | 22:29:19 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:29:19 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:29:19 | Folder good raw data has been created.
+2020-07-30 | 22:29:19 | Folder bad raw data has been created.
+2020-07-30 | 22:30:05 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:30:05 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:30:05 | Folder good raw data has been created.
+2020-07-30 | 22:30:05 | Folder bad raw data has been created.
+2020-07-30 | 22:37:49 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:37:49 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:41:00 | Folder good raw data has been created.
+2020-07-30 | 22:41:00 | Folder bad raw data has been created.
+2020-07-30 | 22:42:08 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:42:08 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:42:08 | Folder good raw data has been created.
+2020-07-30 | 22:42:08 | Folder bad raw data has been created.
+2020-07-30 | 22:45:17 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:45:17 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:45:17 | Folder good raw data has been created.
+2020-07-30 | 22:45:17 | Folder bad raw data has been created.
+2020-07-30 | 22:46:30 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:46:30 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:46:30 | Folder good raw data has been created.
+2020-07-30 | 22:46:30 | Folder bad raw data has been created.
+2020-07-30 | 22:46:55 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:46:55 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:46:55 | Folder good raw data has been created.
+2020-07-30 | 22:46:55 | Folder bad raw data has been created.
+2020-07-30 | 22:47:54 | Folder good raw data has been deleted successfully.
+2020-07-30 | 22:47:54 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 22:47:54 | Folder good raw data has been created.
+2020-07-30 | 22:47:54 | Folder bad raw data has been created.
+2020-07-30 | 23:47:27 | Folder good raw data has been created.
+2020-07-30 | 23:47:27 | Folder bad raw data has been created.
+2020-07-30 | 23:56:01 | Folder good raw data has been deleted successfully.
+2020-07-30 | 23:56:01 | Folder bad raw data has been deleted successfully.
+2020-07-30 | 23:56:01 | Folder good raw data has been created.
+2020-07-30 | 23:56:01 | Folder bad raw data has been created.
+2020-07-31 | 00:20:34 | Folder good raw data has been deleted successfully.
+2020-07-31 | 00:20:34 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 00:20:34 | Folder good raw data has been created.
+2020-07-31 | 00:20:34 | Folder bad raw data has been created.
+2020-07-31 | 00:21:36 | Folder good raw data has been deleted successfully.
+2020-07-31 | 00:21:36 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 00:21:36 | Folder good raw data has been created.
+2020-07-31 | 00:21:36 | Folder bad raw data has been created.
+2020-07-31 | 00:21:46 | Folder good raw data has been deleted successfully.
+2020-07-31 | 00:21:46 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 00:21:46 | Folder good raw data has been created.
+2020-07-31 | 00:21:46 | Folder bad raw data has been created.
+2020-07-31 | 00:23:11 | Folder good raw data has been deleted successfully.
+2020-07-31 | 00:23:11 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 00:23:11 | Folder good raw data has been created.
+2020-07-31 | 00:23:11 | Folder bad raw data has been created.
+2020-07-31 | 00:24:05 | Folder good raw data has been deleted successfully.
+2020-07-31 | 00:24:05 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 00:24:05 | Folder good raw data has been created.
+2020-07-31 | 00:24:05 | Folder bad raw data has been created.
+2020-07-31 | 00:24:17 | Folder good raw data has been deleted successfully.
+2020-07-31 | 00:24:17 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 00:24:17 | Folder good raw data has been created.
+2020-07-31 | 00:24:17 | Folder bad raw data has been created.
+2020-07-31 | 00:26:47 | Folder good raw data has been deleted successfully.
+2020-07-31 | 00:26:47 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 00:26:47 | Folder good raw data has been created.
+2020-07-31 | 00:26:47 | Folder bad raw data has been created.
+2020-07-31 | 17:58:34 | Folder good raw data has been created.
+2020-07-31 | 17:58:34 | Folder bad raw data has been created.
+2020-07-31 | 18:07:19 | Folder good raw data has been deleted successfully.
+2020-07-31 | 18:07:19 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 18:07:19 | Folder good raw data has been created.
+2020-07-31 | 18:07:19 | Folder bad raw data has been created.
+2020-07-31 | 18:10:41 | Folder good raw data has been deleted successfully.
+2020-07-31 | 18:10:41 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 18:10:41 | Folder good raw data has been created.
+2020-07-31 | 18:10:41 | Folder bad raw data has been created.
+2020-07-31 | 22:47:45 | Folder good raw data has been deleted successfully.
+2020-07-31 | 22:47:45 | Folder bad raw data has been deleted successfully.
+2020-07-31 | 22:47:45 | Folder good raw data has been created.
+2020-07-31 | 22:47:45 | Folder bad raw data has been created.

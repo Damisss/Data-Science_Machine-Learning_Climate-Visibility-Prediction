@@ -1,1 +1,17 @@
-{   	"VISIBILITY" : "FLOAT",   	"DRYBULBTEMPF": "FLOAT",   	"WETBULBTEMPF": "FLOAT",   	"DewPointTempF" : "FLOAT",   	"RelativeHumidity" : "FLOAT",   	"WindSpeed" : "FLOAT",   	"WindDirection" : "FLOAT",   	"StationPressure" : "FLOAT",   	"SeaLevelPressure" : "FLOAT",   	"Precip" : "FLOAT",   	"Year":"INTEGER",   	"Month": "INTEGER",   	"Day": "INTEGER",   	"DayOfMonth": "INTEGER",   	"DayOfWeek": "INTEGER"}
+{
+
+   	"DRYBULBTEMPF": "FLOAT",
+   	"WETBULBTEMPF": "FLOAT",
+   	"DewPointTempF" : "FLOAT",
+   	"RelativeHumidity" : "FLOAT",
+   	"WindSpeed" : "FLOAT",
+   	"WindDirection" : "FLOAT",
+   	"StationPressure" : "FLOAT",
+   	"SeaLevelPressure" : "FLOAT",
+   	"Precip" : "FLOAT",
+   	"Year":"INTEGER",
+   	"Month": "INTEGER",
+   	"Day": "INTEGER",
+   	"DayOfMonth": "INTEGER",
+   	"DayOfWeek": "INTEGER"
+}
