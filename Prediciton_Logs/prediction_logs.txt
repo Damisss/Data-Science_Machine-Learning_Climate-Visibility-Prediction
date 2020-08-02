@@ -1,0 +1,6 @@
+2020-08-02 | 22:04:21 | Something went wrong while preparing for prediction: Found array with 0 sample(s) (shape=(0, 12)) while a minimum of 1 is required by StandardScaler.
+2020-08-02 | 22:04:21 | Something went wrong while making prediction for provided data: Found array with 0 sample(s) (shape=(0, 12)) while a minimum of 1 is required by StandardScaler.
+2020-08-02 | 22:19:03 | Data is ready for prediction.
+2020-08-02 | 22:19:03 | Something went wrong while making prediction for provided data: [Errno 2] No such file or directory: 'Models/ExtraTrees_1/model.pkl'
+2020-08-02 | 22:24:19 | Data is ready for prediction.
+2020-08-02 | 22:24:20 | Prediction has been completed successfully.

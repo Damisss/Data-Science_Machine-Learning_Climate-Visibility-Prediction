@@ -55,3 +55,112 @@
 2020-07-07 | 10:28:16 | Best model has been train and evaluate successfully.
 2020-07-31 | 18:18:34 | Experimentation has been completed successfully. Model selected is ExtraTrees
 2020-07-31 | 22:51:52 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-01 | 08:33:21 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-01 | 09:44:21 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-01 | 09:44:22 | Best model has been train and evaluate successfully.
+2020-08-01 | 11:36:35 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-01 | 11:37:31 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-01 | 14:21:25 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-01 | 14:35:52 | Best model has been train and evaluate successfully.
+2020-08-01 | 14:38:09 | Experimentation has been completed successfully. Model selected is RandomForest
+2020-08-01 | 19:07:27 | Hyperparameters tuning of model RandomForest has been completed successfully.
+2020-08-01 | 19:07:45 | Best model has been train and evaluate successfully.
+2020-08-01 | 19:09:27 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-01 | 19:55:26 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-01 | 19:55:27 | Best model has been train and evaluate successfully.
+2020-08-02 | 09:56:10 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-02 | 10:56:02 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-02 | 10:56:03 | Best model has been train and evaluate successfully.
+2020-08-02 | 10:56:28 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-02 | 11:02:29 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-02 | 11:02:41 | Best model has been train and evaluate successfully.
+2020-08-02 | 11:05:05 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-02 | 12:15:31 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-02 | 12:15:33 | Best model has been train and evaluate successfully.
+2020-08-02 | 12:16:30 | Experimentation has been completed successfully. Model selected is Xgboost
+2020-08-02 | 12:16:30 | Sothing went wrong while performing hyperparameters tuning: Invalid parameter colsample_bytree for estimator TransformedTargetRegressor(regressor=Pipeline(steps=[('standardscaler',
+                                                      StandardScaler()),
+                                                     ('xgbregressor',
+                                                      XGBRegressor(base_score=None,
+                                                                   booster=None,
+                                                                   colsample_bylevel=None,
+                                                                   colsample_bynode=None,
+                                                                   colsample_bytree=None,
+                                                                   gamma=None,
+                                                                   gpu_id=None,
+                                                                   importance_type='gain',
+                                                                   interaction_constraints=None,
+                                                                   learning_rate=None,
+                                                                   max_delta_step=None,
+                                                                   max_depth=None,
+                                                                   min_child_weight=None,
+                                                                   missing=nan,
+                                                                   monotone_constraints=None,
+                                                                   n_estimators=100,
+                                                                   n_jobs=None,
+                                                                   num_parallel_tree=None,
+                                                                   random_state=42,
+                                                                   reg_alpha=None,
+                                                                   reg_lambda=None,
+                                                                   scale_pos_weight=None,
+                                                                   subsample=None,
+                                                                   tree_method=None,
+                                                                   validate_parameters=None,
+                                                                   verbosity=None))]),
+                           transformer=StandardScaler()). Check the list of available parameters with `estimator.get_params().keys()`.
+2020-08-02 | 12:27:45 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-02 | 14:32:10 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-02 | 14:51:38 | Best model has been train and evaluate successfully.
+2020-08-02 | 14:52:06 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-02 | 14:57:27 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-02 | 14:57:27 | Best model has been train and evaluate successfully.
+2020-08-02 | 14:59:40 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-02 | 16:18:40 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-02 | 16:18:40 | Best model has been train and evaluate successfully.
+2020-08-02 | 16:19:33 | Experimentation has been completed successfully. Model selected is Xgboost
+2020-08-02 | 16:19:33 | Sothing went wrong while performing hyperparameters tuning: Invalid parameter xgb_colsample_bytree for estimator Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('xgbregressor',
+                 XGBRegressor(base_score=None, booster=None,
+                              colsample_bylevel=None, colsample_bynode=None,
+                              colsample_bytree=None, gamma=None, gpu_id=None,
+                              importance_type='gain',
+                              interaction_constraints=None, learning_rate=None,
+                              max_delta_step=None, max_depth=None,
+                              min_child_weight=None, missing=nan,
+                              monotone_constraints=None, n_estimators=100,
+                              n_jobs=None, num_parallel_tree=None,
+                              random_state=42, reg_alpha=None, reg_lambda=None,
+                              scale_pos_weight=None, subsample=None,
+                              tree_method=None, validate_parameters=None,
+                              verbosity=None))]). Check the list of available parameters with `estimator.get_params().keys()`.
+2020-08-02 | 16:32:27 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-02 | 17:12:36 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-02 | 17:12:36 | Best model has been train and evaluate successfully.
+2020-08-02 | 17:13:06 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-02 | 17:20:41 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-02 | 17:21:15 | Best model has been train and evaluate successfully.
+2020-08-02 | 17:23:37 | Experimentation has been completed successfully. Model selected is ExtraTrees
+2020-08-02 | 19:43:27 | Hyperparameters tuning of model ExtraTrees has been completed successfully.
+2020-08-02 | 20:06:43 | Best model has been train and evaluate successfully.
+2020-08-02 | 20:07:43 | Experimentation has been completed successfully. Model selected is Xgboost
+2020-08-02 | 20:07:43 | Sothing went wrong while performing hyperparameters tuning: Invalid parameter xgb for estimator Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('xgbregressor',
+                 XGBRegressor(base_score=None, booster=None,
+                              colsample_bylevel=None, colsample_bynode=None,
+                              colsample_bytree=None, gamma=None, gpu_id=None,
+                              importance_type='gain',
+                              interaction_constraints=None, learning_rate=None,
+                              max_delta_step=None, max_depth=None,
+                              min_child_weight=None, missing=nan,
+                              monotone_constraints=None, n_estimators=100,
+                              n_jobs=None, num_parallel_tree=None,
+                              random_state=42, reg_alpha=None, reg_lambda=None,
+                              scale_pos_weight=None, subsample=None,
+                              tree_method=None, validate_parameters=None,
+                              verbosity=None))]). Check the list of available parameters with `estimator.get_params().keys()`.
+2020-08-02 | 20:15:33 | Experimentation has been completed successfully. Model selected is Xgboost
+2020-08-02 | 20:16:09 | Hyperparameters tuning of model Xgboost has been completed successfully.
+2020-08-02 | 20:16:10 | Best model has been train and evaluate successfully.
+2020-08-02 | 20:21:20 | Experimentation has been completed successfully. Model selected is Xgboost
+2020-08-02 | 20:22:08 | Hyperparameters tuning of model Xgboost has been completed successfully.
+2020-08-02 | 20:22:10 | Best model has been train and evaluate successfully.

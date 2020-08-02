@@ -37,7 +37,7 @@ class DataPreprocessing ():
             raise e
         
    
-    def featureScalling (self, data):
+    def featureScaling (self, data):
         try:
             X_scalled = StandardScaler().fit_transform(data)
             

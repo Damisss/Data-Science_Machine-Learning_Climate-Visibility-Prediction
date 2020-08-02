@@ -78,11 +78,11 @@ class FindBestModels (GridParams):
         try:
             pipeline = make_pipeline(StandardScaler(), bestModel)
             wrapped_best_model = TransformedTargetRegressor(regressor=pipeline, transformer=StandardScaler())
-            
+                        
             wrapped_best_model.fit(X, y)
            
             with open('Training_Logs/find_best_model_logs.txt', 'a+') as file:
-                 self.logWriter(file, f'Best model has been train and evaluate successfully.')
+                 self.logWriter(file, f'Best model has been trained and evaluated successfully.')
             
             return wrapped_best_model
             

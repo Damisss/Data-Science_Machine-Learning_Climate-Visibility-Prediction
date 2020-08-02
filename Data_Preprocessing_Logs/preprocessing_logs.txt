@@ -257,3 +257,205 @@
 2020-07-31 | 22:49:51 | Done. The data is ready to be passed to a model.
 2020-07-31 | 22:49:59 | The optimum number of clusters is: 3
 2020-07-31 | 22:50:00 | The data has been clustered successfuly.
+2020-08-01 | 08:31:40 | Columns removed successfully
+2020-08-01 | 08:31:40 | Independante variables and Dependant variable were separated Successfully
+2020-08-01 | 08:31:40 | Done. The data is ready to be passed to a model.
+2020-08-01 | 08:31:46 | The optimum number of clusters is: 3
+2020-08-01 | 08:31:47 | The data has been clustered successfuly.
+2020-08-01 | 11:30:26 | Columns removed successfully
+2020-08-01 | 11:30:26 | Independante variables and Dependant variable were separated Successfully
+2020-08-01 | 11:30:26 | Done. The data is ready to be passed to a model.
+2020-08-01 | 11:30:37 | The optimum number of clusters is: 3
+2020-08-01 | 11:30:37 | The data has been clustered successfuly.
+2020-08-01 | 11:34:41 | Columns removed successfully
+2020-08-01 | 11:34:41 | Independante variables and Dependant variable were separated Successfully
+2020-08-01 | 11:34:41 | Done. The data is ready to be passed to a model.
+2020-08-01 | 11:34:53 | The optimum number of clusters is: 3
+2020-08-01 | 11:34:53 | The data has been clustered successfuly.
+2020-08-01 | 21:00:59 | Columns removed successfully
+2020-08-01 | 21:00:59 | Independante variables and Dependant variable were separated Successfully
+2020-08-01 | 21:00:59 | Done. The data is ready to be passed to a model.
+2020-08-01 | 21:00:59 | Features were scalled successfully
+2020-08-01 | 21:00:59 | Features were scalled successfully
+2020-08-01 | 21:01:00 | Features were scalled successfully
+2020-08-01 | 21:01:00 | Features were scalled successfully
+2020-08-01 | 21:01:01 | Features were scalled successfully
+2020-08-01 | 21:01:02 | Features were scalled successfully
+2020-08-01 | 21:01:03 | Features were scalled successfully
+2020-08-01 | 21:01:04 | Features were scalled successfully
+2020-08-01 | 21:01:05 | Features were scalled successfully
+2020-08-01 | 21:01:06 | Features were scalled successfully
+2020-08-01 | 21:01:08 | The optimum number of clusters is: 4
+2020-08-01 | 21:01:08 | Features were scalled successfully
+2020-08-01 | 21:01:08 | The data has been clustered successfuly.
+2020-08-01 | 21:01:51 | Columns removed successfully
+2020-08-01 | 21:01:51 | Independante variables and Dependant variable were separated Successfully
+2020-08-01 | 21:01:51 | Done. The data is ready to be passed to a model.
+2020-08-01 | 21:01:51 | Features were scalled successfully
+2020-08-01 | 21:01:51 | Features were scalled successfully
+2020-08-01 | 21:01:52 | Features were scalled successfully
+2020-08-01 | 21:01:52 | Features were scalled successfully
+2020-08-01 | 21:01:53 | Features were scalled successfully
+2020-08-01 | 21:01:54 | Features were scalled successfully
+2020-08-01 | 21:01:55 | Features were scalled successfully
+2020-08-01 | 21:01:56 | Features were scalled successfully
+2020-08-01 | 21:01:57 | Features were scalled successfully
+2020-08-01 | 21:01:58 | Features were scalled successfully
+2020-08-01 | 21:01:59 | The optimum number of clusters is: 4
+2020-08-01 | 21:01:59 | Features were scalled successfully
+2020-08-01 | 21:02:00 | The data has been clustered successfuly.
+2020-08-01 | 21:51:08 | Columns removed successfully
+2020-08-01 | 21:51:08 | Somthing went wrong while separating features from target :"['visibility'] not found in axis"
+2020-08-01 | 21:51:08 | Somthing went wrong while preprocessing the data:"['visibility'] not found in axis"
+2020-08-01 | 21:51:57 | Columns removed successfully
+2020-08-01 | 21:51:57 | Done. The data is ready to be passed to a model.
+2020-08-01 | 21:54:28 | Columns removed successfully
+2020-08-01 | 21:54:28 | Done. The data is ready to be passed to a model.
+2020-08-01 | 21:54:28 | Features were scalled successfully
+2020-08-01 | 21:54:48 | Columns removed successfully
+2020-08-01 | 21:54:48 | Done. The data is ready to be passed to a model.
+2020-08-01 | 21:54:48 | Features were scalled successfully
+2020-08-01 | 21:55:47 | Columns removed successfully
+2020-08-01 | 21:55:47 | Done. The data is ready to be passed to a model.
+2020-08-01 | 21:55:47 | Features were scalled successfully
+2020-08-01 | 22:13:14 | Columns removed successfully
+2020-08-01 | 22:13:14 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:13:14 | Features were scalled successfully
+2020-08-01 | 22:14:28 | Columns removed successfully
+2020-08-01 | 22:14:28 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:14:28 | Features were scalled successfully
+2020-08-01 | 22:19:47 | Columns removed successfully
+2020-08-01 | 22:19:47 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:19:47 | Features were scalled successfully
+2020-08-01 | 22:21:05 | Columns removed successfully
+2020-08-01 | 22:21:05 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:21:05 | Features were scalled successfully
+2020-08-01 | 22:22:10 | Columns removed successfully
+2020-08-01 | 22:22:10 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:22:10 | Features were scalled successfully
+2020-08-01 | 22:23:09 | Columns removed successfully
+2020-08-01 | 22:23:09 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:23:09 | Features were scalled successfully
+2020-08-01 | 22:25:02 | Columns removed successfully
+2020-08-01 | 22:25:02 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:25:02 | Features were scalled successfully
+2020-08-01 | 22:28:01 | Columns removed successfully
+2020-08-01 | 22:28:01 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:28:01 | Features were scalled successfully
+2020-08-01 | 22:29:32 | Columns removed successfully
+2020-08-01 | 22:29:32 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:29:32 | Features were scalled successfully
+2020-08-01 | 22:56:01 | Columns removed successfully
+2020-08-01 | 22:56:01 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:56:01 | Features were scalled successfully
+2020-08-01 | 22:56:13 | Columns removed successfully
+2020-08-01 | 22:56:13 | Done. The data is ready to be passed to a model.
+2020-08-01 | 22:56:13 | Features were scalled successfully
+2020-08-02 | 09:54:13 | Columns removed successfully
+2020-08-02 | 09:54:13 | Independante variables and Dependant variable were separated Successfully
+2020-08-02 | 09:54:13 | Done. The data is ready to be passed to a model.
+2020-08-02 | 09:54:13 | Features were scalled successfully
+2020-08-02 | 09:54:13 | Features were scalled successfully
+2020-08-02 | 09:54:14 | Features were scalled successfully
+2020-08-02 | 09:54:15 | Features were scalled successfully
+2020-08-02 | 09:54:16 | Features were scalled successfully
+2020-08-02 | 09:54:18 | Features were scalled successfully
+2020-08-02 | 09:54:19 | Features were scalled successfully
+2020-08-02 | 09:54:21 | Features were scalled successfully
+2020-08-02 | 09:54:23 | Features were scalled successfully
+2020-08-02 | 09:54:24 | Features were scalled successfully
+2020-08-02 | 09:54:27 | The optimum number of clusters is: 4
+2020-08-02 | 09:54:27 | Features were scalled successfully
+2020-08-02 | 09:54:28 | The data has been clustered successfuly.
+2020-08-02 | 12:25:29 | Columns removed successfully
+2020-08-02 | 12:25:29 | Independante variables and Dependant variable were separated Successfully
+2020-08-02 | 12:25:29 | Done. The data is ready to be passed to a model.
+2020-08-02 | 12:25:29 | Features were scalled successfully
+2020-08-02 | 12:25:30 | Features were scalled successfully
+2020-08-02 | 12:25:30 | Features were scalled successfully
+2020-08-02 | 12:25:31 | Features were scalled successfully
+2020-08-02 | 12:25:33 | Features were scalled successfully
+2020-08-02 | 12:25:34 | Features were scalled successfully
+2020-08-02 | 12:25:36 | Features were scalled successfully
+2020-08-02 | 12:25:37 | Features were scalled successfully
+2020-08-02 | 12:25:40 | Features were scalled successfully
+2020-08-02 | 12:25:41 | Features were scalled successfully
+2020-08-02 | 12:25:44 | The optimum number of clusters is: 4
+2020-08-02 | 12:25:44 | Features were scalled successfully
+2020-08-02 | 12:25:45 | The data has been clustered successfuly.
+2020-08-02 | 16:27:22 | Columns removed successfully
+2020-08-02 | 16:27:22 | Independante variables and Dependant variable were separated Successfully
+2020-08-02 | 16:27:22 | Done. The data is ready to be passed to a model.
+2020-08-02 | 16:27:22 | Features were scalled successfully
+2020-08-02 | 16:27:22 | Features were scalled successfully
+2020-08-02 | 16:27:23 | Features were scalled successfully
+2020-08-02 | 16:27:25 | Features were scalled successfully
+2020-08-02 | 16:27:27 | Features were scalled successfully
+2020-08-02 | 16:27:30 | Features were scalled successfully
+2020-08-02 | 16:27:32 | Features were scalled successfully
+2020-08-02 | 16:27:35 | Features were scalled successfully
+2020-08-02 | 16:27:38 | Features were scalled successfully
+2020-08-02 | 16:27:41 | Features were scalled successfully
+2020-08-02 | 16:27:45 | The optimum number of clusters is: 4
+2020-08-02 | 16:27:45 | Features were scalled successfully
+2020-08-02 | 16:27:46 | The data has been clustered successfuly.
+2020-08-02 | 16:30:31 | Columns removed successfully
+2020-08-02 | 16:30:31 | Independante variables and Dependant variable were separated Successfully
+2020-08-02 | 16:30:31 | Done. The data is ready to be passed to a model.
+2020-08-02 | 16:30:31 | Features were scalled successfully
+2020-08-02 | 16:30:31 | Features were scalled successfully
+2020-08-02 | 16:30:32 | Features were scalled successfully
+2020-08-02 | 16:30:33 | Features were scalled successfully
+2020-08-02 | 16:30:34 | Features were scalled successfully
+2020-08-02 | 16:30:35 | Features were scalled successfully
+2020-08-02 | 16:30:37 | Features were scalled successfully
+2020-08-02 | 16:30:38 | Features were scalled successfully
+2020-08-02 | 16:30:40 | Features were scalled successfully
+2020-08-02 | 16:30:42 | Features were scalled successfully
+2020-08-02 | 16:30:45 | The optimum number of clusters is: 4
+2020-08-02 | 16:30:45 | Features were scalled successfully
+2020-08-02 | 16:30:45 | The data has been clustered successfuly.
+2020-08-02 | 20:14:18 | Columns removed successfully
+2020-08-02 | 20:14:18 | Independante variables and Dependant variable were separated Successfully
+2020-08-02 | 20:14:18 | Done. The data is ready to be passed to a model.
+2020-08-02 | 20:14:18 | Features were scalled successfully
+2020-08-02 | 20:14:19 | Features were scalled successfully
+2020-08-02 | 20:14:19 | Features were scalled successfully
+2020-08-02 | 20:14:20 | Features were scalled successfully
+2020-08-02 | 20:14:22 | Features were scalled successfully
+2020-08-02 | 20:14:24 | Features were scalled successfully
+2020-08-02 | 20:14:25 | Features were scalled successfully
+2020-08-02 | 20:14:27 | Features were scalled successfully
+2020-08-02 | 20:14:29 | Features were scalled successfully
+2020-08-02 | 20:14:31 | Features were scalled successfully
+2020-08-02 | 20:14:33 | The optimum number of clusters is: 4
+2020-08-02 | 20:14:33 | Features were scalled successfully
+2020-08-02 | 20:14:34 | The data has been clustered successfuly.
+2020-08-02 | 20:20:01 | Columns removed successfully
+2020-08-02 | 20:20:01 | Independante variables and Dependant variable were separated Successfully
+2020-08-02 | 20:20:01 | Done. The data is ready to be passed to a model.
+2020-08-02 | 20:20:01 | Features were scalled successfully
+2020-08-02 | 20:20:01 | Features were scalled successfully
+2020-08-02 | 20:20:02 | Features were scalled successfully
+2020-08-02 | 20:20:04 | Features were scalled successfully
+2020-08-02 | 20:20:06 | Features were scalled successfully
+2020-08-02 | 20:20:07 | Features were scalled successfully
+2020-08-02 | 20:20:08 | Features were scalled successfully
+2020-08-02 | 20:20:10 | Features were scalled successfully
+2020-08-02 | 20:20:12 | Features were scalled successfully
+2020-08-02 | 20:20:14 | Features were scalled successfully
+2020-08-02 | 20:20:17 | The optimum number of clusters is: 4
+2020-08-02 | 20:20:17 | Features were scalled successfully
+2020-08-02 | 20:20:18 | The data has been clustered successfuly.
+2020-08-02 | 20:26:12 | Columns removed successfully
+2020-08-02 | 20:26:12 | Done. The data is ready to be passed to a model.
+2020-08-02 | 20:26:12 | Features were scalled successfully
+2020-08-02 | 22:04:21 | Columns removed successfully
+2020-08-02 | 22:04:21 | Done. The data is ready to be passed to a model.
+2020-08-02 | 22:04:21 | Somthing went wrong while performing data scalling :Found array with 0 sample(s) (shape=(0, 12)) while a minimum of 1 is required by StandardScaler.
+2020-08-02 | 22:19:03 | Columns removed successfully
+2020-08-02 | 22:19:03 | Done. The data is ready to be passed to a model.
+2020-08-02 | 22:19:03 | Features were scalled successfully
+2020-08-02 | 22:24:19 | Columns removed successfully
+2020-08-02 | 22:24:19 | Done. The data is ready to be passed to a model.
+2020-08-02 | 22:24:19 | Features were scalled successfully

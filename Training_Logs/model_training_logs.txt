@@ -48,3 +48,78 @@
 2020-07-31 | 18:00:20 | Something went wrong while training the model: [Errno 2] File DataFrom_Db/training_set.csv does not exist: 'DataFrom_Db/training_set.csv'
 2020-07-31 | 18:12:24 | Data is ready to be passed to a ML model.
 2020-07-31 | 22:50:00 | Data is ready to be passed to a ML model.
+2020-08-01 | 08:31:47 | Data is ready to be passed to a ML model.
+2020-08-01 | 09:44:22 | Something went wrong while training the model: [Errno 2] No such file or directory: 'Models/ExtraTrees_1/evalution_plot.png'
+2020-08-01 | 11:30:37 | Data is ready to be passed to a ML model.
+2020-08-01 | 11:34:53 | Data is ready to be passed to a ML model.
+2020-08-01 | 19:55:27 | Model training has been completed successfully.
+2020-08-01 | 21:01:08 | Data is ready to be passed to a ML model.
+2020-08-01 | 21:02:00 | Data is ready to be passed to a ML model.
+2020-08-02 | 09:54:28 | Data is ready to be passed to a ML model.
+2020-08-02 | 12:16:30 | Something went wrong while training the model: Invalid parameter colsample_bytree for estimator TransformedTargetRegressor(regressor=Pipeline(steps=[('standardscaler',
+                                                      StandardScaler()),
+                                                     ('xgbregressor',
+                                                      XGBRegressor(base_score=None,
+                                                                   booster=None,
+                                                                   colsample_bylevel=None,
+                                                                   colsample_bynode=None,
+                                                                   colsample_bytree=None,
+                                                                   gamma=None,
+                                                                   gpu_id=None,
+                                                                   importance_type='gain',
+                                                                   interaction_constraints=None,
+                                                                   learning_rate=None,
+                                                                   max_delta_step=None,
+                                                                   max_depth=None,
+                                                                   min_child_weight=None,
+                                                                   missing=nan,
+                                                                   monotone_constraints=None,
+                                                                   n_estimators=100,
+                                                                   n_jobs=None,
+                                                                   num_parallel_tree=None,
+                                                                   random_state=42,
+                                                                   reg_alpha=None,
+                                                                   reg_lambda=None,
+                                                                   scale_pos_weight=None,
+                                                                   subsample=None,
+                                                                   tree_method=None,
+                                                                   validate_parameters=None,
+                                                                   verbosity=None))]),
+                           transformer=StandardScaler()). Check the list of available parameters with `estimator.get_params().keys()`.
+2020-08-02 | 12:25:45 | Data is ready to be passed to a ML model.
+2020-08-02 | 16:19:33 | Something went wrong while training the model: Invalid parameter xgb_colsample_bytree for estimator Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('xgbregressor',
+                 XGBRegressor(base_score=None, booster=None,
+                              colsample_bylevel=None, colsample_bynode=None,
+                              colsample_bytree=None, gamma=None, gpu_id=None,
+                              importance_type='gain',
+                              interaction_constraints=None, learning_rate=None,
+                              max_delta_step=None, max_depth=None,
+                              min_child_weight=None, missing=nan,
+                              monotone_constraints=None, n_estimators=100,
+                              n_jobs=None, num_parallel_tree=None,
+                              random_state=42, reg_alpha=None, reg_lambda=None,
+                              scale_pos_weight=None, subsample=None,
+                              tree_method=None, validate_parameters=None,
+                              verbosity=None))]). Check the list of available parameters with `estimator.get_params().keys()`.
+2020-08-02 | 16:27:46 | Data is ready to be passed to a ML model.
+2020-08-02 | 16:30:45 | Data is ready to be passed to a ML model.
+2020-08-02 | 20:07:43 | Something went wrong while training the model: Invalid parameter xgb for estimator Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('xgbregressor',
+                 XGBRegressor(base_score=None, booster=None,
+                              colsample_bylevel=None, colsample_bynode=None,
+                              colsample_bytree=None, gamma=None, gpu_id=None,
+                              importance_type='gain',
+                              interaction_constraints=None, learning_rate=None,
+                              max_delta_step=None, max_depth=None,
+                              min_child_weight=None, missing=nan,
+                              monotone_constraints=None, n_estimators=100,
+                              n_jobs=None, num_parallel_tree=None,
+                              random_state=42, reg_alpha=None, reg_lambda=None,
+                              scale_pos_weight=None, subsample=None,
+                              tree_method=None, validate_parameters=None,
+                              verbosity=None))]). Check the list of available parameters with `estimator.get_params().keys()`.
+2020-08-02 | 20:14:34 | Data is ready to be passed to a ML model.
+2020-08-02 | 20:16:10 | Model training has been completed successfully.
+2020-08-02 | 20:20:18 | Data is ready to be passed to a ML model.
+2020-08-02 | 20:22:10 | Model training has been completed successfully.

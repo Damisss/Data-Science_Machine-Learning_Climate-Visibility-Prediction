@@ -46,4 +46,18 @@ class Operation ():
                 self.logWriter(f, 'Something went wrong while loading  the model.')
             raise e
     
-    #def  not finish yet.
+    def findModel (self, clusterLabel):
+        try:
+            modelFolders= [name for name in os.listdir(self.modelsDirPath) if os.path.isdir(f'{self.modelsDirPath}/{name}')]
+            for folderName in modelFolders:
+                intoList = folderName.split('_')
+                if len(intoList) == 2 and clusterLabel == int(intoList[1]):
+                    modelFolderName = '_'.join(intoList)
+                    return modelFolderName
+            with open('Training_Logs/model_training.txt', 'a+') as f:
+                self.logWriter(f, 'Model has been loaded successfully.')
+            
+        except Exception as e:
+            with open('Training_Logs/model_training.txt', 'a+') as f:
+                self.logWriter(f, 'Something went wrong while loading  the model.')
+            raise e

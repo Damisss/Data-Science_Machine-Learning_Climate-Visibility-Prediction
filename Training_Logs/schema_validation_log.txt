@@ -46,3 +46,14 @@
 2020-07-31 | 18:07:19 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
 2020-07-31 | 18:10:41 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
 2020-07-31 | 22:47:45 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-01 | 08:30:11 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-01 | 11:29:08 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-01 | 11:32:29 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-02 | 09:52:06 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-02 | 12:23:00 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-02 | 16:25:07 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-02 | 16:28:33 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-02 | 22:04:21 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-02 | 22:12:47 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-02 | 22:17:33 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11
+2020-08-02 | 22:22:55 | LengthOfDateStampInFile: 8 "LengthOfTimeStampInFile: 6  "ColumnsNumbers: 11

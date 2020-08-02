@@ -15,12 +15,13 @@ class DB ():
         self.fileFromDb = 'Data_From_Db'
         self.extension = '.csv'
         self.trainGoodRawDataPath ='Data/Train/Good_Raw_Data'
-        self.trainBadRawDataPath = 'Data/Train/Bad_Raw_Data'
+        #self.trainBadRawDataPath = 'Data/Train/Bad_Raw_Data'
         self.predictionGoodRawDataPath ='Data/Prediction/Good_Raw_Data'
-        self.predictionBadRawDataPath = 'Data/Prediction/Bad_Raw_Data'
+        #self.predictionBadRawDataPath = 'Data/Prediction/Bad_Raw_Data'
         
     def dbConnection (self, dbName):
         try:
+        
             connect = sqlite3.connect(dbName)
             with open('Db_Logs/logs.txt', 'a+') as file:
                 self.logWriter(file, f'{dbName} was connected successfully')
@@ -34,31 +35,35 @@ class DB ():
     def createTable(self, dbName, datasetType='train'):
         
         try:
+            
             dbPath = 'Training_Db/training.db' if datasetType =='train' else 'Prediction_Db/prediction.db'
+             
             conn = self.dbConnection(f'DataBase/{dbPath}')
             c = conn.cursor()
             with open(self.schemaPath, 'r') as f:
                 schema = json.load(f)
-                
-            c.execute("SELECT count(name)  FROM sqlite_master WHERE type = 'table'AND name = 'Good_Raw_Data'")
+            # check if the table exist   
+            c.execute("SELECT count(name)  FROM sqlite_master WHERE type = 'table' AND name = 'Good_Raw_Data'")
+                        
             if c.fetchone()[0] == 1:
-                conn.close()
                 with open('Db_Logs/logs.txt', 'a+') as file:
-                    self.logWriter(file, 'Table already exist. db is closed ('')')
-            else:
+                          self.logWriter(file, 'Table already exist. db is closed')
+                 # Delete the table if it exist.
+                conn.execute("DROP TABLE IF EXISTS 'Good_Raw_Data'");
+
                 # The prediction data will not have target
-                if datasetType == 'train':
-                    schema["VISIBILITY"] =  "FLOAT"
-                for column_name, dtype in schema.items():
-                    
-                    try:
-                        # if table is created then add the reste of columns.
-                        conn.execute(f'ALTER TABLE Good_Raw_Data ADD COLUMN "{column_name}" {dtype}')
-                    except:
-                        #create the table with only one column.
-                        conn.execute(f'CREATE TABLE  Good_Raw_Data ({column_name} {dtype})')
-                    with open('Db_Logs/logs.txt', 'a+') as file:
-                         self.logWriter(file, 'Table already exist. db is closed')
+            if datasetType == 'train':
+                schema["VISIBILITY"] =  "FLOAT"
+            for column_name, dtype in schema.items():
+                
+                try:
+                    # if table is created then add the reste of columns.
+                    conn.execute(f'ALTER TABLE Good_Raw_Data ADD COLUMN "{column_name}" {dtype}')
+                except:
+                    #create the table with only one column.
+                    conn.execute(f'CREATE TABLE  Good_Raw_Data ({column_name} {dtype})')
+                with open('Db_Logs/logs.txt', 'a+') as file:
+                      self.logWriter(file, 'Table already exist. db is closed')
             conn.close()          
         except Exception as e:
             with open('Db_Logs/logs.txt', 'a+') as file:

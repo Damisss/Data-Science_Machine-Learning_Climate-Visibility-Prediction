@@ -6,14 +6,14 @@ class GridParams ():
         
         self.svr = {'regressor___svr__c':range(1, 10), 'regressor___svr__gamma': [0.001, 0.005, 0.1, 0.5] }
         
-        self.xgboost =  {'regressor__xgb__max_depth': [3, 4, 5, 6, 7, 8, 10],
-                         'regressor__xgb__learning_rate': [0.01, 0.05, 0.1, 0.2],
-                         'regressor__xgb__colsample_bytree': [0.6, 0.7, 0.8],
-                         'regressor__xgb__min_child_weight': [0.4, 0.5, 0.6],
-                         'regressor__xgb__gamma': [0.0, 0.01, 0.1],
-                         'regressor__xgb__reg_lambda': range(2, 10, 2),
-                         'regressor__xgb__n_estimators': [100, 150, 200, 250],
-                         'colsample_bytree':[0.3, 0.4, 0.5, 0.6]}
+        self.xgboost =  {'regressor__xgbregressor__max_depth': [3, 4, 5, 6, 7, 8, 10],
+                         'regressor__xgbregressor__learning_rate': [0.01, 0.05, 0.1, 0.2],
+                         'regressor__xgbregressor__colsample_bytree': [0.6, 0.7, 0.8],
+                         'regressor__xgbregressor__min_child_weight': [0.4, 0.5, 0.6],
+                         'regressor__xgbregressor__gamma': [0.0, 0.01, 0.1],
+                         'regressor__xgbregressor__reg_lambda': range(2, 10, 2),
+                         'regressor__xgbregressor__n_estimators': [100, 150, 200, 250],
+                         }
         
         
         self.gradientboost = {'regressor__gradientboostingregressor__n_estimators': [100, 150, 200, 250],

@@ -2,9 +2,11 @@ from Data_Preprocessing.preprocessing import DataPreprocessing
 from Data_Preprocessing.clustering import DataClustering
 from Training_Models.experimentation import FindBestModels
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
 from Log_Writer.log import logWriter
 from File_Operations.methods import Operation
-import matplotlib.pyplot as plt
+import pandas as pd
+
 
 
 class TrainingModels ():
@@ -62,18 +64,17 @@ class TrainingModels ():
                 #make prediction on testsets
                 y_pred = model.predict(X_test)
                 
-                f, (ax1,ax2) = plt.subplots(1, 2, sharex=True )
-                # histogram plot
-                ax1.hist(y_test - y_pred)
-                plt.xlabel('Visibility')
-                # scatter plot
-                ax2.scatter(y_test, y_pred)
-                plt.xlabel('Actual Values')
-                plt.ylabel('predict values')
-                
-                plt.savefig(f'Models/{modelDirName}/evalution_plot.png')
                 # save model
                 self.fileOperation.saveModel(model, modelDirName, modelDirName.lower())
+                
+                # create an csv file for model  evaluation on test set.
+                df = pd.DataFrame()
+                df['True Values'] = y_test
+                df['Predict Values'] = y_pred
+                df['Prediction Errors'] = y_test - y_pred 
+                # Mean Squared, Error will be the same value in every row. 
+                df['Mean Squared, Error'] = mean_squared_error(y_test, y_pred)
+                df.to_csv(f'Models/{modelDirName}/evaluation.csv')
                 
             with open('Training_Logs/model_training_logs.txt', 'a+') as file:
                 self.logWriter(file, f'Model training has been completed successfully.')
