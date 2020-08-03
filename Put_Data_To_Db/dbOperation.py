@@ -52,8 +52,8 @@ class DB ():
                 conn.execute("DROP TABLE IF EXISTS 'Good_Raw_Data'");
 
                 # The prediction data will not have target
-            if datasetType == 'train':
-                schema["VISIBILITY"] =  "FLOAT"
+            if datasetType != 'train':
+              del schema["VISIBILITY"]
             for column_name, dtype in schema.items():
                 
                 try:
@@ -67,7 +67,7 @@ class DB ():
             conn.close()          
         except Exception as e:
             with open('Db_Logs/logs.txt', 'a+') as file:
-                self.logWriter(file, f'Something went wrong while creating table.')
+                self.logWriter(file, f'Something went wrong while creating table: {e}')
             conn.close()
             raise e
     

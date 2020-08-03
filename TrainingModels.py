@@ -6,6 +6,8 @@ from sklearn.metrics import mean_squared_error
 from Log_Writer.log import logWriter
 from File_Operations.methods import Operation
 import pandas as pd
+import numpy as np
+from sklearn.preprocessing import StandardScaler
 
 
 
@@ -51,18 +53,25 @@ class TrainingModels ():
                 cluster_features = data.drop(['cluster', 'visiblity'], axis=1)
                 cluster_label = data['visiblity']
                 X_train, X_test, y_train, y_test = train_test_split(cluster_features, cluster_label, test_size=.2, random_state=42)
+                
+                #data scaling
+                scaler = StandardScaler()
+                scaler.fit(X_train)
+                X_train_scalled = scaler.transform(X_train)
+                X_test_scalled = scaler.transform(X_test)
+                
                 # get promissing model
-                promising_model = self.findBestModel.experimentations(X_train, y_train, 10, 'neg_mean_squared_error')
+                promising_model = self.findBestModel.experimentations(X_train_scalled, y_train, 10, 'neg_mean_squared_error')
                 
                 # find best model after some hyper parametrs tuning
-                best_model = self.findBestModel.hyperparametersTuning(promising_model, X_train, y_train, 5)
+                best_model = self.findBestModel.hyperparametersTuning(promising_model, X_train_scalled, y_train, 5)
                 # Finally, train the best model,
                 name, _ = [(name, _) for name, _ in promising_model.items()][0]
                 modelDirName = name + '_' + str(i)
                 
-                model = self.findBestModel.trainAndEvaluateBestModel(best_model, X_train, y_train)
+                model = self.findBestModel.trainAndEvaluateBestModel(best_model, X_train_scalled, y_train)
                 #make prediction on testsets
-                y_pred = model.predict(X_test)
+                y_pred = model.predict(X_test_scalled)
                 
                 # save model
                 self.fileOperation.saveModel(model, modelDirName, modelDirName.lower())
@@ -71,9 +80,9 @@ class TrainingModels ():
                 df = pd.DataFrame()
                 df['True Values'] = y_test
                 df['Predict Values'] = y_pred
-                df['Prediction Errors'] = y_test - y_pred 
+                df['Prediction Error'] = y_test - y_pred 
                 # Mean Squared, Error will be the same value in every row. 
-                df['Mean Squared, Error'] = mean_squared_error(y_test, y_pred)
+                df['Root Mean Square Error'] = np.sqrt(mean_squared_error(y_test, y_pred))
                 df.to_csv(f'Models/{modelDirName}/evaluation.csv')
                 
             with open('Training_Logs/model_training_logs.txt', 'a+') as file:

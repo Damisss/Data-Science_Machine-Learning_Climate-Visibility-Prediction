@@ -134,9 +134,9 @@ def predictRouteClient():
           #fetch data and save it into csv
           db.fetchAllToCsv('DataBase/Prediction_Db/prediction.db', 'prediction')
          
-          # Perform prediction
+           # Perform prediction
           predict = Predict()
-          # run training
+           # run training
           predict.run()
 
 

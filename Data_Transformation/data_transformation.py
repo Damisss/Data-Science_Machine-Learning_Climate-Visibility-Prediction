@@ -20,6 +20,8 @@ class TransformData ():
                 df['Day'] = df['DATE'].dt.day
                 df['DayOfMonth'] = df['DATE'].dt.dayofyear
                 df['DayOfWeek'] = df['DATE'].dt.dayofweek
+                #df['Hour'] = df['DATE'].dt.hour
+                # we don't take minute because it is constant value (51 for every record)
                 df = df.drop('DATE', axis=1)
 
                 df.to_csv(f'{self.dirPath}/{fileName}', index=None, header=True)

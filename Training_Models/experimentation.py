@@ -1,32 +1,31 @@
 from Training_Models.grid_params  import GridParams
-from sklearn.ensemble import RandomForestRegressor, ExtraTreesRegressor, AdaBoostRegressor, GradientBoostingRegressor
+from sklearn.ensemble import RandomForestRegressor, ExtraTreesRegressor, GradientBoostingRegressor
 from sklearn.svm import SVR
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.model_selection import train_test_split, cross_val_predict, cross_val_score, RandomizedSearchCV
+from sklearn.model_selection import cross_val_score, RandomizedSearchCV
 from sklearn.pipeline import make_pipeline
 from sklearn.compose import TransformedTargetRegressor
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler, PowerTransformer
 from xgboost import XGBRegressor
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 from Log_Writer.log import logWriter
-
+from Data_Preprocessing.preprocessing import DataPreprocessing
 #neg_mean_squared_error
 
 class FindBestModels (GridParams):
     
     def __init__ (self):
         super().__init__()
+        self.dataprocessing = DataPreprocessing()
         self.logWriter = logWriter
         self.models  = {
-                        'Svc': make_pipeline(StandardScaler(), SVR()),
-                        'Kneighbors':  make_pipeline(StandardScaler(), KNeighborsRegressor()),
-                        'RandomForest': make_pipeline(StandardScaler(), RandomForestRegressor(random_state=42)),
-                        'ExtraTrees': make_pipeline(StandardScaler(), ExtraTreesRegressor(random_state=42)),
+                        'Svc': SVR(),
+                        'Kneighbors':  KNeighborsRegressor(),
+                        'RandomForest': RandomForestRegressor(random_state=42),
+                        'ExtraTrees': ExtraTreesRegressor(random_state=42),
                         #'AdaBoost': make_pipeline(StandardScaler(),AdaBoostRegressor(random_state=42)),
-                        'GradientBoosting': make_pipeline(StandardScaler(), GradientBoostingRegressor(random_state=42)),
-                        'Xgboost':make_pipeline(StandardScaler(), XGBRegressor(random_state=42))
+                        'GradientBoosting': GradientBoostingRegressor(random_state=42),
+                        'Xgboost':XGBRegressor(random_state=42)
                          }
     
     def experimentations (self, X, y, cv, scoring):
@@ -34,9 +33,9 @@ class FindBestModels (GridParams):
             results ={}
             for name, model in self.models.items():
                # perform  both feature and target scalling
-               wrapped_model = TransformedTargetRegressor(regressor=model, transformer=StandardScaler())
-               mse = cross_val_score(wrapped_model, X, y, cv=cv, scoring=scoring)
-               results[name] = np.sqrt(-np.mean(mse))
+               #wrapped_model = TransformedTargetRegressor(regressor=model, transformer=PowerTransformer())
+               scores = cross_val_score(model, X, y, cv=cv, scoring=scoring)
+               results[name] = np.sqrt(-np.mean(scores))
                
             promisingModelName = list(filter(lambda x : results[x] == min(results.values()), results))[0]
              
@@ -60,8 +59,8 @@ class FindBestModels (GridParams):
             #               "regressor__extratreesregressor__max_depth": range(2, 9, 1), 
             #               "regressor__extratreesregressor__max_features": ['auto','sqrt', 'log2']}
                      
-            wrapped_promising_model = TransformedTargetRegressor(regressor=model, transformer=StandardScaler())
-            RSCv = RandomizedSearchCV(wrapped_promising_model, param_grid,  cv=cv, n_iter=10)
+            #wrapped_promising_model = TransformedTargetRegressor(regressor=model, transformer=PowerTransformer())
+            RSCv = RandomizedSearchCV(model, param_grid,  cv=cv, n_iter=10)
             RSCv.fit(X, y)
                      
             with open('Training_Logs/find_best_model_logs.txt', 'a+') as file:
@@ -76,22 +75,19 @@ class FindBestModels (GridParams):
             
     def trainAndEvaluateBestModel (self, bestModel, X, y):
         try:
-            pipeline = make_pipeline(StandardScaler(), bestModel)
-            wrapped_best_model = TransformedTargetRegressor(regressor=pipeline, transformer=StandardScaler())
+            #pipeline = make_pipeline(PowerTransformer(), bestModel)
+            #wrapped_best_model = TransformedTargetRegressor(regressor=pipeline, transformer=PowerTransformer())
                         
-            wrapped_best_model.fit(X, y)
+            bestModel.fit(X, y)
            
             with open('Training_Logs/find_best_model_logs.txt', 'a+') as file:
                  self.logWriter(file, f'Best model has been trained and evaluated successfully.')
             
-            return wrapped_best_model
+            return bestModel
             
         except Exception as e:
             with open('Training_Logs/find_best_model_logs.txt', 'a+') as file:
                  self.logWriter(file, f'Sothing went wrong while training best model: {e}')
             raise e
-            
-            
-            
-            
+        
         

@@ -3,39 +3,40 @@
 class GridParams ():
     
     def __init__ (self):
+        #regressor__xgbregressor__
         
-        self.svr = {'regressor___svr__c':range(1, 10), 'regressor___svr__gamma': [0.001, 0.005, 0.1, 0.5] }
+        self.svr = {'c':range(1, 10), 'gamma': [0.001, 0.005, 0.1, 0.5] }
         
-        self.xgboost =  {'regressor__xgbregressor__max_depth': [3, 4, 5, 6, 7, 8, 10],
-                         'regressor__xgbregressor__learning_rate': [0.01, 0.05, 0.1, 0.2],
-                         'regressor__xgbregressor__colsample_bytree': [0.6, 0.7, 0.8],
-                         'regressor__xgbregressor__min_child_weight': [0.4, 0.5, 0.6],
-                         'regressor__xgbregressor__gamma': [0.0, 0.01, 0.1],
-                         'regressor__xgbregressor__reg_lambda': range(2, 10, 2),
-                         'regressor__xgbregressor__n_estimators': [100, 150, 200, 250],
+        self.xgboost =  {'max_depth': [3, 4, 5, 6, 7, 8, 10],
+                         'learning_rate': [0.01, 0.05, 0.1, 0.2],
+                         'colsample_bytree': [0.6, 0.7, 0.8],
+                         'min_child_weight': [0.4, 0.5, 0.6],
+                         'gamma': [0.0, 0.01, 0.1],
+                         'reg_lambda': range(2, 10, 2),
+                         'n_estimators': [100, 150, 200, 250],
                          }
         
         
-        self.gradientboost = {'regressor__gradientboostingregressor__n_estimators': [100, 150, 200, 250],
-                              'regressor__gradientboostingregressor__learning_rate':[0.01, 0.05, 0.1, 0.2], 
-                              'regressor__gradientboostingregressor__min_samples_leaf':[2, 3],  
-                              'regressor__gradientboostingregressor__min_samples_split':[14], 
-                              'regressor__gradientboostingregressor__max_features':[0.7, .1, .05]
+        self.gradientboost = {'n_estimators': [100, 150, 200, 250],
+                              'learning_rate':[0.01, 0.05, 0.1, 0.2], 
+                              'min_samples_leaf':[2, 3],  
+                              'min_samples_split':[14], 
+                              'max_features':[0.7, .1, .05]
                              }
         
-        self.randomforest = {'regressor__randomforestregressor__n_estimators':[150, 300, 600], 
-                             'regressor__randomforestregressor__min_samples_leaf':[2, 3],  
-                             'regressor__randomforestregressor__min_samples_split':[14, 12], 
-                             'regressor__randomforestregressor__max_features':[0.7, 1],
-                            'regressor__randomforestregressor__criterion': ['mse', 'mae']}
+        self.randomforest = {'n_estimators':[150, 300, 600], 
+                             'min_samples_leaf':[2, 3],  
+                             'min_samples_split':[14, 12], 
+                             'max_features':[0.7, 1],
+                            'criterion': ['mse', 'mae']}
         
-        self.extratrees= {'regressor__extratreesregressor__n_estimators': [100, 150, 200, 250], 
-                          'regressor__extratreesregressor__criterion': ['mse', 'mae'],
-                          'regressor__extratreesregressor__max_depth': range(2, 9, 1), 
-                          'regressor__extratreesregressor__max_features': ['auto','sqrt', 'log2']}
+        self.extratrees= {'n_estimators': [100, 150, 200, 250], 
+                          'criterion': ['mse', 'mae'],
+                          'max_depth': range(2, 9, 1), 
+                          'max_features': ['auto','sqrt', 'log2']}
         
-        self.kneighbors = {'regressor__kneighborsregressor__regressor_algorithm':['auto', 'ball_tree', 'kd_tree'],
-                           'regressor__kneighborsregressor__leaf_size': range(5, 40, 3),
-                           'regressor__kneighborsregressor__metric':['minkowski', 'precomputed'],
-                           'regressor__kneighborsregressor__n_neighbors':range(2, 15, 1),
-                           'regressor__kneighborsregressor__p': [2, 3, 5]}
+        self.kneighbors = {'regressor_algorithm':['auto', 'ball_tree', 'kd_tree'],
+                           'leaf_size': range(5, 40, 3),
+                           'metric':['minkowski', 'precomputed'],
+                           'n_neighbors':range(2, 15, 1),
+                           'p': [2, 3, 5]}
